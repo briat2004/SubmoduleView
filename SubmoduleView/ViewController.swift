@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     var customView: CustomView = {
         let v = CustomView()
+        v.backgroundColor = .green
         v.translatesAutoresizingMaskIntoConstraints = false
         return v
     }()
