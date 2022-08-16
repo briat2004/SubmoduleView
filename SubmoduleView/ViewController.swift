@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = .yellow
         self.view.addSubview(customView)
         customView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
         customView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
