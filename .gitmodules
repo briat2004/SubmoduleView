@@ -1,0 +1,3 @@
+[submodule "GitTest"]
+	path = GitTest
+	url = git@github.com:briat2004/GitTest.git
